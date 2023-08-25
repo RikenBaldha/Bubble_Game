@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <audio id="RC" >
+        <source src="so.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="WC" >
+        <source src="sound.mp3" type="audio/mpeg">
+    </audio>
+    <div id="main">
+        <div id="all">
+            <div id="top">
+                <button id="startButton">Start</button>
+
+                <a href="index.html">Restart</a>
+                <div class="elem">
+                    <h4>hint:-</h4>
+                    <div class="box" id="hint">5</div>
+                </div>
+                <div class="elem">
+                    <h4>time:-</h4>
+                    <div class="box" id="time">60</div>
+                </div>
+                <div class="elem">
+                    <h4>score:-</h4>
+                    <div class="box" id="score">0</div>
+                </div>
+            </div>
+            <div id="bottom">
+
+                <p class="pa">Rule:-
+
+                (1) Hint will be given to you.
+
+                (2) You need to find the value of the hint in all bubbles and click on the right bubble.
+
+                (3) There will be a 60-second game.
+
+                (4) If you click on the right bubble, 10 points will be added to your score.
+
+                (5) If you click on the wrong bubble, 5 points will be deducted from your score.</p>
+                
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
