@@ -30,13 +30,13 @@ function worngbubble() {
 
 function gameover() {
     if (x.matches) { // If media query matches
-        bubble.innerHTML = "Game Over" + "<br> " + "Your Score:- " + score + "<br> " + "<br> " + "<br> " + "Click Restart to Play Game " + "<br> " + "<br> "+"Right Click Bubble :- " + rb + "<br> "+"Wrong Click Bubble :- " + wb;
+        bubble.innerHTML = "Game Over" + "<br> " + "Your Score:- " + score + "<br> " + "<br> " + "<br> " + "Click Start to Play Game " + "<br> " + "<br> "+"Right Click Bubble :- " + rb + "<br> "+"Wrong Click Bubble :- " + wb;
         bubble.style.justifyContent = "center"
         bubble.style.textAlign = "center"
         bubble.style.display = "flex"
         bubble.style.fontSize = "21px"
       } else {
-        bubble.innerHTML = "Game Over" + "<br> " + "Your Score:- " + score + "<br> " + "<br> " + "<br> " + "Click Restart to Play Game " + "<br> " + "<br> "+"Right Click Bubble :- " + rb + "<br> "+"Wrong Click Bubble :- " + wb;
+        bubble.innerHTML = "Game Over" + "<br> " + "Your Score:- " + score + "<br> " + "<br> " + "<br> " + "Click Start to Play Game " + "<br> " + "<br> "+"Right Click Bubble :- " + rb + "<br> "+"Wrong Click Bubble :- " + wb;
         bubble.style.justifyContent = "center"
         bubble.style.textAlign = "center"
         bubble.style.display = "flex"
