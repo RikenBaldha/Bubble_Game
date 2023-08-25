@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.pa{
+    white-space: pre-line;
+    font-size: 25px;
+
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    overflow: hidden;
+}
+
+#all {
+    border-radius: 5px;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(17, 0, 255);
+    
+}
+
+#top {
+    padding: 0px 20%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+#submit{
+    margin-left: -100px; 
+    background-color: white;
+    color: black;
+    padding: 10px 23px;
+    border-radius: 17px;
+}
+
+#startButton{
+    margin-left: -140px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a{
+    margin-left: -129px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.elem {
+
+    display: flex;
+    align-items: center ;
+}
+
+.box {
+    padding: 10px;
+    color: #000;
+    font-weight: 7000;
+    background-color: white;
+    border-radius: 5px;
+}
+#bottom{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    color: black;
+    height: calc(100% - 100px);
+    background-color: white;
+}
+
+.bubble{
+    
+    margin: 6px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #03a2ff;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #1c80ba  ;
+}
+
+@media (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+    
+    /* Adjust other styles as needed */
+}
+
+/* Medium screens (426px to 768px) */
+/* @media (min-width: 426px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    /* Adjust other styles as needed 
+} */
+
+/* Large screens (769px and above) */
+/* @media (min-width: 769px) {
+    body {
+        font-size: 18px;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+    
+    /* Adjust other styles as needed 
+} */
+
+ @media only screen and (max-width: 426px){
+    .pa{
+        white-space: pre-line;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    .elem {
+        font-size: 8px;
+        margin-left: -10px;
+        padding: 6px;
+       
+    }
+
+    #startButton{
+        position: absolute;
+        margin-left: -70px;
+    margin-bottom: 150px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    a{
+        position: absolute;
+        margin-left: -10px;
+        padding: 10px;
+        margin-bottom: 150px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    #top {
+        position:relative;
+        padding: 0px -10px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+    }
+    .bubble{
+    
+        margin: 6px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 24px;
+        background-color: #03a2ff;
+    }
+    
+}
+
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+    .pa{
+        white-space: pre-line;
+        font-size: 18px;
+        margin-left: 0px;
+    
+    }
+    
+    #startButton{
+        margin-left: -90px;
+    margin-bottom: 150px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    a{
+        
+        margin-left: 0px;
+        padding: 10px;
+        margin-bottom: 150px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .bubble{
+    
+        margin: 6px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 24px;
+        background-color: #03a2ff;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .pa{
+        white-space: pre-line;
+        font-size: 20px;
+        margin-left: 0px;
+    
+    }
+} 
